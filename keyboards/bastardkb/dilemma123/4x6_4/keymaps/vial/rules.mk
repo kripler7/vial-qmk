@@ -1,0 +1,9 @@
+SERIAL_DRIVER = vendor
+POINTING_DEVICE_DRIVER = cirque_pinnacle_spi
+POINTING_DEVICE_ENABLE = yes
+VIA_ENABLE = yes
+ENCODER_MAP_ENABLE = yes
+VIAL_ENABLE = yes
+VIAL_INSECURE = yes
+VIALRGB_ENABLE = yes
+SRC += dilemma.c

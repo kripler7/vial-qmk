@@ -1,5 +1,5 @@
 /**
- * Copyright 2022 Charly Delay <charly@codesink.dev> (@0xcharly)
+ * Copyright 2021 Charly Delay <charly@codesink.dev> (@0xcharly)
  * Copyright 2023 casuanoob <casuanoob@hotmail.com> (@casuanoob)
  *
  * This program is free software: you can redistribute it and/or modify
@@ -15,30 +15,12 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-
 #pragma once
 
-/* Handedness. */
-#define SPLIT_HAND_PIN GP29
-#define SPLIT_HAND_PIN_LOW_IS_LEFT // High -> right, Low -> left.
+#define DYNAMIC_KEYMAP_LAYER_COUNT 8
 
-/* VBUS detection. */
-#define USB_VBUS_PIN GP19
+#define SPLIT_LAYER_STATE_ENABLE
+#define SPLIT_LED_STATE_ENABLE
 
-/* CRC. */
-#define CRC8_USE_TABLE
-#define CRC8_OPTIMIZE_SPEED
-
-/* Cirque trackpad over SPI. */
-#define SPI_DRIVER SPID0
-#define SPI_SCK_PIN GP22
-#define SPI_MOSI_PIN GP23
-#define SPI_MISO_PIN GP20
-#define POINTING_DEVICE_CS_PIN GP21
-#undef CIRQUE_PINNACLE_DIAMETER_MM
-#define CIRQUE_PINNACLE_DIAMETER_MM 40
-
-/* Reset. */
-#define RP2040_BOOTLOADER_DOUBLE_TAP_RESET
-#define RP2040_BOOTLOADER_DOUBLE_TAP_RESET_LED GP17
-#define RP2040_BOOTLOADER_DOUBLE_TAP_RESET_TIMEOUT 500U
+#define ENCODER_RESOLUTION 4
+#define TAPPING_TERM 175
