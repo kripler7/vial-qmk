@@ -9,5 +9,7 @@ I2C_DRIVER_REQUIRED = yes
 # project specific files
 SRC =	keyboards/wilba_tech/wt_main.c \
 		keyboards/wilba_tech/wt_rgb_backlight.c \
-		drivers/led/issi/is31fl3733.c \
+		#drivers/led/issi/is31fl3733.c \
 		quantum/color.c
+
+SRC += keyboards/novelkeys/nk87/g_led_config.c

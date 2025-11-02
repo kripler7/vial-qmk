@@ -204,7 +204,7 @@
             ]
         ]
     },
-    "lighting": "qmk_backlight",
+    "lighting": "vialrgb",
     "maintainer": "Yiancar",
     "matrix": {
         "cols": 17,

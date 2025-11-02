@@ -1,6 +1,11 @@
 VIA_ENABLE = yes
 VIAL_ENABLE = yes
+VIALRGB_ENABLE = yes
+RGB_MATRIX_ENABLE = yes
+RGB_MATRIX_DRIVER = is31fl3733
+SRC += keyboards/novelkeys/nk87/g_led_config.c
 
 TAP_DANCE_ENABLE = yes
 KEY_OVERRIDE_ENABLE = yes
 QMK_SETTINGS = yes
+#BACKLIGHT_ENABLE = yes

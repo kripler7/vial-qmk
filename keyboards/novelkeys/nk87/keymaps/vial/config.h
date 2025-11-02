@@ -8,3 +8,5 @@
 
 #define DEBOUNCE 5
 #define TAPPING_TERM 200
+
+#define RGB_MATRIX_LED_COUNT 128
