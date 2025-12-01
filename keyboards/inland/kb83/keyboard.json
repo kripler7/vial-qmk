@@ -6,7 +6,6 @@
         "vid": "0xFFFE",
         "pid": "0x0007",
         "device_version": "1.0.0",
-        "force_nkro": true
     },
     "rgb_matrix": {
         "animations": {
